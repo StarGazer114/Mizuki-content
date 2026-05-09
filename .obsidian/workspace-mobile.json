@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "play商店版泰拉瑞亚设置中文"
             }
+          },
+          {
+            "id": "62dde53301573a13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "template/new-posts.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "new-posts"
+            }
+          },
+          {
+            "id": "9f4c493c505f28eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "draft/测试文章.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "测试文章"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,8 +197,13 @@
       "bases:新建数据库": false
     }
   },
-  "active": "1928140a378e5750",
+  "active": "2f6d0d8d2444a27e",
   "lastOpenFiles": [
+    "draft",
+    "template/new-posts.md",
+    "draft/测试文章.md",
+    "posts/play商店版泰拉瑞亚设置中文.md",
+    "template",
     "posts/🎉【教师节快乐】🎉.md",
     "README.md"
   ]

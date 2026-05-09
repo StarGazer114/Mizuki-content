@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "50ba3ed4d2e0fbe8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8258f12256ac34e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1928140a378e5750",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/play商店版泰拉瑞亚设置中文.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "play商店版泰拉瑞亚设置中文"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81c2923f0a61918d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2f6d0d8d2444a27e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "4f828d808991df29",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "c380da6b0563a669",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
+        }
+      },
+      {
+        "id": "57cbfd4dc2fb9148",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "添加笔记属性"
+        }
+      },
+      {
+        "id": "79d72b5449feb8a4",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "书签"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "5f6d172706371488",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ddb6e54f24aa6071",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "posts/play商店版泰拉瑞亚设置中文.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "3dac60cf9033b4ba",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "posts/play商店版泰拉瑞亚设置中文.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
+        }
+      },
+      {
+        "id": "1d0a793a1d0320a8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "posts/play商店版泰拉瑞亚设置中文.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "1928140a378e5750",
+  "lastOpenFiles": [
+    "posts/🎉【教师节快乐】🎉.md",
+    "README.md"
+  ]
+}

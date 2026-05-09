@@ -28,3 +28,5 @@ tags: ["泰拉瑞亚", "游戏", "汉化"]
   ![Screenshot_2026-04-06-15-04-03-37_9e8df3d0c7c1f50248b6ee043a653d26.jpg](https://imgbed.bear556.top/file/1775459096479_Screenshot_2026-04-06-15-04-03-37_9e8df3d0c7c1f50248b6ee043a653d26.webp)
   重启游戏，变成中文
   ![中文](https://imgbed.bear556.top/file/1775450234983_11368.jpg)
+
+END

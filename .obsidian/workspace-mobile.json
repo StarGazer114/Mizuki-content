@@ -57,7 +57,7 @@
               "state": {
                 "file": "posts/在移动端优雅的编辑文章.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "在移动端优雅的编辑文章"
@@ -211,7 +211,7 @@
       "bases:新建数据库": false
     }
   },
-  "active": "2f6d0d8d2444a27e",
+  "active": "3ea0eae881d534fa",
   "lastOpenFiles": [
     "images/albums/README.md",
     "posts/在移动端优雅的编辑文章.md",

@@ -3,6 +3,7 @@
     "editor:undo",
     "editor:redo",
     "editor:toggle-code",
+    "editor:insert-codeblock",
     "editor:insert-embed",
     "editor:attach-file",
     "editor:set-heading",
@@ -18,5 +19,8 @@
     "editor:indent-list",
     "editor:unindent-list",
     "editor:configure-toolbar"
-  ]
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "draft",
+  "showUnsupportedFiles": true
 }

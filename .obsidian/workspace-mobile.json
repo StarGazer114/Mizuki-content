@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/在移动端优雅的编辑文章.md",
-                "mode": "source",
+                "file": "posts/用obsidian管理文章.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "在移动端优雅的编辑文章"
+              "title": "用obsidian管理文章"
             }
           }
         ],
@@ -213,8 +213,9 @@
   },
   "active": "3ea0eae881d534fa",
   "lastOpenFiles": [
+    "spec/about.md",
+    "posts/用obsidian管理文章.md",
     "images/albums/README.md",
-    "posts/在移动端优雅的编辑文章.md",
     "images/albums/AcgExample/cover.webp",
     "images/albums/AcgExample/d8.webp",
     "images/albums/AcgExample/5d662a33907ffe4edd7261ea4b374ff0a01e2dde.webp",

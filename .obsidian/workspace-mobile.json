@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "用obsidian管理文章"
             }
+          },
+          {
+            "id": "57788dc31e26d900",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/导出steam手机令牌.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "导出steam手机令牌"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -211,10 +225,12 @@
       "bases:新建数据库": false
     }
   },
-  "active": "3ea0eae881d534fa",
+  "active": "57788dc31e26d900",
   "lastOpenFiles": [
-    "spec/about.md",
+    "posts/ASF挂卡食用教程.md",
+    "posts/导出steam手机令牌.md",
     "posts/用obsidian管理文章.md",
+    "spec/about.md",
     "images/albums/README.md",
     "images/albums/AcgExample/cover.webp",
     "images/albums/AcgExample/d8.webp",

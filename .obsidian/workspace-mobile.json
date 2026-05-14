@@ -67,18 +67,38 @@
             "id": "57788dc31e26d900",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-space-view",
               "state": {
-                "file": "posts/导出steam手机令牌.md",
-                "mode": "source",
-                "source": true
+                "file": "images/albums/HiddenExample/info.json"
               },
               "icon": "lucide-file",
-              "title": "导出steam手机令牌"
+              "title": "info.json"
+            }
+          },
+          {
+            "id": "263f5d48444b2ba7",
+            "type": "leaf",
+            "state": {
+              "type": "code-space-dashboard",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Code Space"
+            }
+          },
+          {
+            "id": "c3593b5445868007",
+            "type": "leaf",
+            "state": {
+              "type": "code-space-view",
+              "state": {
+                "file": "data/friends.ts"
+              },
+              "icon": "lucide-file",
+              "title": "friends.ts"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -169,7 +189,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/在移动端优雅的编辑文章.md",
+            "file": "posts/导出steam手机令牌.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -210,9 +230,19 @@
           "icon": "lucide-list",
           "title": "大纲"
         }
+      },
+      {
+        "id": "b23023367e80c6ba",
+        "type": "leaf",
+        "state": {
+          "type": "code-space-outline",
+          "state": {},
+          "icon": "code",
+          "title": "代码大纲"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,13 +252,18 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "code-space:打开 Code Space 主面板": false
     }
   },
-  "active": "57788dc31e26d900",
+  "active": "263f5d48444b2ba7",
   "lastOpenFiles": [
-    "posts/ASF挂卡食用教程.md",
+    "images/albums/HiddenExample/info.json",
     "posts/导出steam手机令牌.md",
+    "data/anime.ts",
+    "images/albums/AcgExample/1.webp",
+    "images/albums/ExternalExample/info.json",
+    "posts/ASF挂卡食用教程.md",
     "posts/用obsidian管理文章.md",
     "spec/about.md",
     "images/albums/README.md",

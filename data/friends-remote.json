@@ -1,0 +1,36 @@
+{
+  "syncedAt": "2026-05-17T03:12:18.040Z",
+  "source": "https://raw.githubusercontent.com/StarGazer114/link-data/master/v2/data.json",
+  "friends": [
+    {
+      "id": 3,
+      "title": "Watermelonabc的Blog",
+      "imgurl": "https://watermelonabc.top/asset/icon/Avatar.png",
+      "desc": "IDA，嘿嘿，IDA 🤤",
+      "siteurl": "https://watermelonabc.top",
+      "tags": [
+        "朋友们"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "雪萌天文台",
+      "imgurl": "https://img.snowy.moe/head.png",
+      "desc": "发现巷子里的那颗星星",
+      "siteurl": "https://blog.snowy.moe",
+      "tags": [
+        "朋友们"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "拾光小阁",
+      "imgurl": "https://imgbed.bear556.top/file/1777777243020_avatar.webp",
+      "desc": "万钟则不辨礼仪而受之，万种于我美滋滋",
+      "siteurl": "https://blog.bear556.top",
+      "tags": [
+        "朋友们"
+      ]
+    }
+  ]
+}

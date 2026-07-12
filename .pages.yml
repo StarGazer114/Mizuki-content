@@ -159,3 +159,9 @@ content:
     type: file
     path: data/friends.ts
     format: code
+  - name: about
+    label: 关于
+    type: file
+    path: spec/about.md
+    format: code
+

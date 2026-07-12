@@ -1,6 +1,17 @@
 # PagesCMS 配置 — Mizuki 博客
 # 文档: https://pagescms.org/docs/
 
+# ── Actions 配置 ───────────────────────────────
+actions:
+  - name: deploy
+    label: 部署网站
+    workflow: cloudflare-deploy.yml
+    ref: current
+    confirm:
+      title: 确认部署？
+      message: 将触发 Cloudflare Pages 重新构建并发布网站。
+      button: 部署
+
 # ── 媒体配置 ──────────────────────────────────
 # 定义图片上传目标，供 image 字段和 rich-text 编辑器使用
 media:
@@ -142,3 +153,9 @@ content:
           media: images              # 关联上方 media 配置，支持插入图片
 
   
+
+  - name: friends
+    label: 友链
+    type: file
+    path: data/friends.ts
+    format: code

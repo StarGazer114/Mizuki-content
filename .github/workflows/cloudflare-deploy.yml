@@ -1,14 +1,12 @@
 name: Cloudflare Pages Deploy
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'data/**'
-      - 'images/**'
-      - 'posts/**'
-      - 'spec/**'
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: Pages CMS payload as JSON
+        required: false
+        type: string
 
 jobs:
   deploy:

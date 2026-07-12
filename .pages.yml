@@ -1,0 +1,144 @@
+# PagesCMS 配置 — Mizuki 博客
+# 文档: https://pagescms.org/docs/
+
+# ── 媒体配置 ──────────────────────────────────
+# 定义图片上传目标，供 image 字段和 rich-text 编辑器使用
+media:
+  - name: images
+    label: 图片资源
+    input: images          # 上传到仓库中的 public/images/
+    output: /images               # 内容中写入的公开 URL 前缀
+    extensions:
+      - png
+      - jpg
+      - jpeg
+      - gif
+      - webp
+      - svg
+    rename: safe                  # slugify 文件名，避免中文/空格问题
+
+# ── 内容集合配置 ──────────────────────────────
+content:
+  - name: posts
+    label: 博客文章
+    type: collection
+    path: posts        # Astro Content Collection 路径
+    filename:
+      template: "{primary}.md"    # 以 slugified 标题作为文件名
+      field: create               # 新建时可编辑文件名
+    view:
+      primary: title
+      fields: [title, published, draft, tags]
+      sort: [published, priority]
+      default:
+        sort: published
+        order: desc
+
+    # ── 字段定义 ──────────────────────────────
+    fields:
+      # ---------- 核心字段 ----------
+      - name: title
+        label: 标题
+        type: string
+        required: true
+        options:
+          maxlength: 120
+
+      - name: published
+        label: 发布日期
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+
+      - name: updated
+        label: 更新日期
+        type: date
+        options:
+          format: yyyy-MM-dd
+
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: false
+
+      - name: description
+        label: 文章摘要
+        type: text
+        description: 用于 SEO 和列表展示，留空则自动截取正文前段
+        options:
+          maxlength: 300
+
+      - name: image
+        label: 封面图片
+        type: string
+        description: 文章封面图 URL（支持外链或 /images/ 路径）
+
+      # ---------- 分类与标签 ----------
+      - name: tags
+        label: 标签
+        type: string
+        description: 逗号分隔多个标签，例如 "Hexo, 教程, GitHub"
+        options:
+          maxlength: 200
+
+      - name: category
+        label: 分类
+        type: string
+        description: 文章所属分类，留空则不显示
+        
+      # ---------- 展示控制 ----------
+      - name: pinned
+        label: 置顶
+        type: boolean
+        default: false
+
+      - name: priority
+        label: 优先级
+        type: number
+        description: 数值越大排序越靠前（0–100）
+        options:
+          min: 0
+          max: 100
+
+      - name: comment
+        label: 开启评论
+        type: boolean
+        default: true
+
+      # ---------- 加密 ----------
+      - name: encrypted
+        label: 加密文章
+        type: boolean
+        default: false
+
+      - name: password
+        label: 访问密码
+        type: string
+        description: 设置后读者需输入密码才能查看文章
+
+      - name: passwordHint
+        label: 密码提示
+        type: string
+        description: 显示在密码输入框旁的提示文字
+
+      # ---------- URL 控制 ----------
+      - name: alias
+        label: 别名
+        type: string
+        description: 文章的短别名，用于生成简洁 URL
+
+      - name: permalink
+        label: 自定义固定链接
+        type: string
+        description: 优先级高于 alias，覆盖默认 URL 规则
+
+      # ---------- 正文 ----------
+      - name: body
+        label: 正文
+        type: rich-text
+        options:
+          format: markdown           # 以 Markdown 格式存储
+          media: images              # 关联上方 media 配置，支持插入图片
+
+  

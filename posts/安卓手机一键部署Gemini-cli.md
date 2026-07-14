@@ -3,7 +3,9 @@ title: 安卓手机一键部署 Gemini-CLI 反向代理
 published: 2025-09-21
 updated: 2025-09-21
 draft: false
-tags: Gemini, AI
+tags:
+  - Gemini
+  - AI
 pinned: false
 comment: true
 encrypted: false

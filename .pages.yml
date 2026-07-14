@@ -88,6 +88,7 @@ content:
       # ---------- 分类与标签 ----------
       - name: tags
         label: 标签
+        list: true
         type: string
         description: 逗号分隔多个标签，例如 "Hexo, 教程, GitHub"
         options:

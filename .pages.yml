@@ -82,7 +82,9 @@ content:
 
       - name: image
         label: 封面图片
-        type: string
+        type: image
+        options: 
+         media: images
         description: 文章封面图 URL（支持外链或 /images/ 路径）
 
       # ---------- 分类与标签 ----------

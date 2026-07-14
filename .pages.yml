@@ -85,7 +85,6 @@ content:
         type: image
         options: 
          media: images
-        description: 文章封面图 URL（支持外链或 /images/ 路径）
 
       # ---------- 分类与标签 ----------
       - name: tags

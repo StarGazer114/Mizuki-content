@@ -1,3 +1,4 @@
+> 没想好写些什么就把默认页面放这了🤤
 
 This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
 

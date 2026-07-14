@@ -89,11 +89,13 @@ content:
       # ---------- 分类与标签 ----------
       - name: tags
         label: 标签
-        list: true
-        type: string
-        description: 逗号分隔多个标签，例如 "Hexo, 教程, GitHub"
+        type: reference
+        description: 文章标签，可多选
         options:
-          maxlength: 200
+          collection: tags
+          multiple: true
+          value: "{slug}"
+          label: "{title}"
 
       - name: category
         label: 分类
@@ -159,6 +161,27 @@ content:
           media: images              # 关联上方 media 配置，支持插入图片
 
   
+
+  - name: tags
+    label: 标签管理
+    type: collection
+    path: data/tags
+    filename:
+      template: "{primary}.md"
+      field: create
+    view:
+      primary: title
+      fields: [title, slug]
+    fields:
+      - name: title
+        label: 标签名
+        type: string
+        required: true
+      - name: slug
+        label: 标识符
+        type: string
+        required: true
+        description: 写入 frontmatter 的值，建议使用英文小写（如 astro、tutorial）
 
   - name: categories
     label: 分类管理

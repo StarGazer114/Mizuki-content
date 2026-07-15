@@ -1,9 +1,9 @@
 ---
 title: 用pagescms管理文章
-published: 2026-07-15
-updated: 2026-07-15
+published: 2026-07-15T00:00:00.000Z
+updated: 2026-07-15T00:00:00.000Z
 draft: true
-image: /images/14816.png
+image: 'https://img.bear556.top/pagescms_upload/2026/07/15/14816.png'
 pinned: false
 comment: true
 encrypted: false

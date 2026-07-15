@@ -53,7 +53,7 @@ content:
         ref: current
         confirm:
           title: 上传图片至 Cloudflare R2？
-          message: 将把本文中所有仓库内图片上传至 R2 并替换对应链接，操作完成后会自动 commit，不可逆，请确认后继续。
+          message: 将把本文中所有仓库内图片上传至 R2 并替换对应链接，操作完成后会自动 commit，这会导致pagescms无法预览文章封面，请确认后继续。
           button: 确认上传
 
     # ── 字段定义 ──────────────────────────────

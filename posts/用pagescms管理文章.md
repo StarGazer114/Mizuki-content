@@ -1,5 +1,5 @@
 ---
-title: 用pagescms管理文章
+title: 用PagesCMS管理文章
 published: 2026-07-15
 updated: 2026-07-15
 draft: false

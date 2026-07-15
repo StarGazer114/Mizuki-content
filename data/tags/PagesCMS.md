@@ -1,0 +1,4 @@
+---
+title: PagesCMS
+slug: PagesCMS
+---

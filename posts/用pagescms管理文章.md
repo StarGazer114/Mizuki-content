@@ -11,16 +11,16 @@ encrypted: false
 之前写过用obsidian管理文章，当时感觉这就是静态博客管理的最优解了，直到我发现了[Twilight](https://github.com/Spr-Aachen/Twilight)这个主题，也是基于Astro的，但人家支持后台管理  。
 
 ？我怎么不知道Astro还支持后台管理🤨，下载一个看看  
-哇！如此美观的界面！
-哇！如此丝滑的操作！
-哇！如此优雅的编辑方式！
-哇！咳咳……
+哇！如此美观的界面！    
+哇！如此丝滑的操作！    
+哇！如此优雅的编辑方式！    
+哇！咳咳……  
 
 ---
 
-其实是[PagesCMS](https://github.com/pagescms/pagescms)，一个基于GitHub的cms管理系统，特点就是人家==没有后台，没有数据库==，一切的一切都在GitHub上，每次修改都是一个commit，非常适合Hexo，Astro，Hugo这种静态博客  。
+其实是[PagesCMS](https://github.com/pagescms/pagescms)，一个基于GitHub的cms管理系统，特点就是人家没有后台，没有数据库`一切的一切都在GitHub上`，每次修改都是一个commit，非常适合Hexo，Astro，Hugo这种静态博客  。
 
-使用起来也非常简单，只需要一个配置文件==.pages.yml==即可，配置完只需要去[官网](https://app.pagescms.org)关联你的GitHub仓库就好了。
+使用起来也非常简单，只需要一个配置文件`.pages.yml`即可，配置完只需要去[官网](https://app.pagescms.org)关联你的GitHub仓库就好了。
 
 # 配置pages.yml
 
@@ -307,7 +307,7 @@ content:
 
 ### 一定要记得保存
 
-因为pagecms没有数据库，==一切都基于GitHub==，所以编辑后一定要记得点报错提交更改，~~你也不想辛苦码了半天的字全都消失吧~~
+因为pagecms没有数据库`一切都基于GitHub`，所以编辑后一定要记得点报错提交更改，~~你也不想辛苦码了半天的字全都消失吧~~
 
 ### 自动部署
 

@@ -161,7 +161,8 @@ async function main() {
   const pathPrefix     = (process.env.R2_PATH_PREFIX ?? '').replace(/^\/|\/$/g, '')
 
   // 2. 定位文件
-  const repoRoot   = process.cwd()                         // workflow 在仓库根目录运行
+  // 脚本在 .github/scripts/ 下运行，需上溯两级到仓库根
+  const repoRoot   = path.resolve(process.cwd(), '../../')
   const articleAbs = path.join(repoRoot, filePath)
 
   if (!fs.existsSync(articleAbs)) {

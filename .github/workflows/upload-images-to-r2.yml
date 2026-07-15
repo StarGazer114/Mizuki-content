@@ -38,12 +38,12 @@ jobs:
       - name: 执行图片上传脚本
         env:
           FILE_PATH: ${{ steps.parse.outputs.file_path }}
-          R2_ENDPOINT:          ${{ vars.R2_ENDPOINT }}
-          R2_BUCKET:            ${{ vars.R2_BUCKET }}
-          R2_ACCESS_KEY_ID:     ${{ vars.R2_ACCESS_KEY_ID }}
+          R2_ENDPOINT:          ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET:            ${{ secrets.R2_BUCKET }}
+          R2_ACCESS_KEY_ID:     ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_PUBLIC_URL:        ${{ vars.R2_PUBLIC_URL }}
-          R2_PATH_PREFIX:       ${{ vars.R2_PATH_PREFIX }}
+          R2_PUBLIC_URL:        ${{ secrets.R2_PUBLIC_URL }}
+          R2_PATH_PREFIX:       ${{ secrets.R2_PATH_PREFIX }}
         # 在 scripts 目录下运行，node_modules 就在同级，import 可正常解析
         run: node upload-images-to-r2.mjs
         working-directory: .github/scripts

@@ -268,8 +268,8 @@ content:
 | type: collection | 表示这是一个内容集合（比如你的posts文件夹） |
 | path: docs | 你存文章的文件夹路径 |
 | fields | 定义front-matter |
-| 你可以根据自己主题得需求来更改`fields`的内容，以下是pagescms支持的全部类型和说明： |  |
 
+你可以根据自己主题得需求来更改`fields`的内容，以下是pagescms支持的全部类型和说明：
 
 
 | 类型 | 说明 |
@@ -288,7 +288,8 @@ content:
 | object | 将多个子字段嵌套在一个键下，适用于 SEO、地址、作者信息等结构化数据 |
 | block | 页面构建器模式，允许编辑者从多种不同结构的对象中选择，适用于 Landing Page 分区 |
 | uuid | 自动生成 UUID v4，适用于稳定唯一 ID |
-| 只需要按照自己的需求拼装 `.pages.yml`.后放到仓库根目录下就好了😎 |  |
+
+ 只需要按照自己的需求拼装 `.pages.yml`.后放到仓库根目录下就好了😎 
 
 
 ## 自动生成配置

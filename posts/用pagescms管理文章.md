@@ -4,6 +4,9 @@ published: 2026-07-15
 updated: 2026-07-15
 draft: false
 image: https://img.bear556.top/pagescms_upload/2026/07/15/14816.png
+tags:
+  - PagesCMS
+category: 技术
 pinned: false
 comment: true
 encrypted: false
@@ -11,14 +14,16 @@ encrypted: false
 之前写过用obsidian管理文章，当时感觉这就是静态博客管理的最优解了，直到我发现了[Twilight](https://github.com/Spr-Aachen/Twilight)这个主题，也是基于Astro的，但人家支持后台管理  。
 
 ？我怎么不知道Astro还支持后台管理🤨，下载一个看看  
-哇！如此美观的界面！    
-哇！如此丝滑的操作！    
-哇！如此优雅的编辑方式！    
+哇！如此美观的界面！  
+哇！如此丝滑的操作！  
+哇！如此优雅的编辑方式！  
 哇！咳咳……  
 
 ---
 
 其实是[PagesCMS](https://github.com/pagescms/pagescms)，一个基于GitHub的cms管理系统，特点就是人家没有后台，没有数据库`一切的一切都在GitHub上`，每次修改都是一个commit，非常适合Hexo，Astro，Hugo这种静态博客  。
+
+::github{repo="pagescms/pagescms"}
 
 使用起来也非常简单，只需要一个配置文件`.pages.yml`即可，配置完只需要去[官网](https://app.pagescms.org)关联你的GitHub仓库就好了。
 
@@ -261,7 +266,7 @@ content:
 
 
 | 配置项 | 说明 |
-| ------------------------------------------------- | ------------------------ |
+| ---------------- | ------------------------ |
 | media: media | 定义了媒体文件夹，也就是你上传的图片 |
 | content | 定义了这是一个可编辑的内容 |
 | name / label | 集合的标识名和显示标签 |
@@ -269,11 +274,12 @@ content:
 | path: docs | 你存文章的文件夹路径 |
 | fields | 定义front-matter |
 
+
 你可以根据自己主题得需求来更改`fields`的内容，以下是pagescms支持的全部类型和说明：
 
 
 | 类型 | 说明 |
-| ---------------------------------------- | ---------------------------------------------- |
+| --------- | ---------------------------------------------- |
 | string | 纯文本 |
 | text | 多行纯文本 |
 | rich-text | 富文本编辑器，用于文章正文 |
@@ -289,8 +295,8 @@ content:
 | block | 页面构建器模式，允许编辑者从多种不同结构的对象中选择，适用于 Landing Page 分区 |
 | uuid | 自动生成 UUID v4，适用于稳定唯一 ID |
 
- 只需要按照自己的需求拼装 `.pages.yml`.后放到仓库根目录下就好了😎 
 
+ 只需要按照自己的需求拼装 `.pages.yml`.后放到仓库根目录下就好了😎 
 
 ## 自动生成配置
 

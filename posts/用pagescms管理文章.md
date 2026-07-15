@@ -300,7 +300,7 @@ content:
 
 ## 自动生成配置
 
-~~你好claude~~，~~~~请按照我的博客的content~~.~~~~config~~.~~ts文件的内容配置pagescms的配置文件~~
+~你好claude，请按照我的博客的content.config.ts文件的内容配置pagescms的配置文件~
 
 交给万能的ai
 

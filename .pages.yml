@@ -220,6 +220,11 @@ content:
     type: file
     path: data/friends.ts
     format: code
+  - name: friend
+    label: 友链说明
+    type: file
+    path: spec/friends.md
+    format: code
   - name: about
     label: 关于
     type: file

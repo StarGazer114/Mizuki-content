@@ -14,6 +14,14 @@ export interface FriendItem {
 // 友情链接数据
 export const friendsData: FriendItem[] = [
 	{
+		id: 4,
+		title: "里世界",
+		imgurl: "https://leenet.xyz/avatar.png",
+		desc: "Welcome To The World Of Lee",
+		siteurl: "https://leenet.xyz",
+		tags: ["朋友们"],
+	},
+	{
 		id: 3,
 		title: "Watermelonabc的Blog",
 		imgurl: "https://watermelonabc.top/asset/icon/Avatar.png",

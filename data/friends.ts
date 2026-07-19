@@ -1,5 +1,6 @@
 // 友情链接数据配置
-// 用于管理友情链接页面的数据
+// ⚠️ 此文件由 GitHub Actions 自动生成，请勿手动修改
+// 数据来源：https://github.com/StarGazer114/firends-data
 
 export interface FriendItem {
 	id: number;
@@ -14,26 +15,10 @@ export interface FriendItem {
 export const friendsData: FriendItem[] = [
 	{
 		id: 1,
-		title: "雪萌天文台",
-		imgurl: "https://img.snowy.moe/head.png",
-		desc: "发现巷子里的那颗星星",
-		siteurl: "https://blog.snowy.moe/",
-		tags: ["朋友们"],
-	},
-	{
-	   id: 2,
-	   title: "Watermelonabc的Blog",
-       siteurl: "https://watermelonabc.top/",
-       imgurl: "https://watermelonabc.top/asset/icon/Avatar.png",
-       desc: "IDA，嘿嘿，IDA 🤤",
-       tags: ["朋友们"],
-	},
-    {
-		id: 3,
-		title: "里世界",
-		imgurl: "https://leenet.xyz/avatar.png",
-		desc: "Welcome To The World Of Lee",
-		siteurl: "https://leenet.xyz",
+		title: "这是一个测试友链",
+		imgurl: "https://imgbed.bear556.top/file/1777777243020_avatar.webp",
+		desc: "如果你能看到这个链接，说明我的新友链系统测试成功了",
+		siteurl: "https://blog.bear556.top",
 		tags: ["朋友们"],
 	}
 ];

@@ -36,14 +36,6 @@ export const friendsData: FriendItem[] = [
 		desc: "发现巷子里的那颗星星",
 		siteurl: "https://blog.snowy.moe/",
 		tags: ["朋友们"],
-	},
-	{
-		id: 1,
-		title: "这是一个测试友链",
-		imgurl: "https://imgbed.bear556.top/file/1777777243020_avatar.webp",
-		desc: "如果你能看到这个链接，说明我的新友链系统测试成功了",
-		siteurl: "https://blog.bear556.top",
-		tags: ["朋友们"],
 	}
 ];
 
